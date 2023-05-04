@@ -1,0 +1,23 @@
+.palette {
+    display: block;
+    height: 30px;
+    width: 30px;
+    // border: black solid 1px;
+    padding: 20px;
+    margin: 15px;
+    &.mainblue {
+        background-color: #104E85;
+    }
+    &.smokyblue {
+        background-color: #2A6C94;
+    }
+    &.mainpink {
+        background-color: #EF7E7F;
+    }
+    &.samon {
+        background-color: #DF4456;
+    }
+    &.accent {
+        background-color: #8F1926;
+    }
+}

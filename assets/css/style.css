@@ -89,12 +89,28 @@ table {
   border-radius: 8px;
   width: 240px;
 }
+@media (max-width: 1000px) {
+  .crdimg2 {
+    margin-left: none;
+    width: 80%;
+    height: 230px;
+  }
+}
 
 .crd2 {
   height: 400px;
   width: fit-content;
   background-color: rgb(239, 247, 255);
   color: navy;
+}
+@media (max-width: 1000px) {
+  .crd2 {
+    width: fit-content;
+    height: 200px;
+    margin: 40px;
+    padding-bottom: 30px;
+    display: flex;
+  }
 }
 
 .crd3 {
@@ -129,10 +145,11 @@ table {
 }
 
 .crdimg4 {
-  height: 60%;
-  width: auto;
+  height: 100%;
+  width: 100%;
   border-radius: 8px;
   overflow: hidden;
+  margin-bottom: none;
 }
 
 .crd4 {
@@ -140,6 +157,7 @@ table {
   height: 250px;
   display: flex;
   flex-direction: row;
+  margin-bottom: none;
 }
 
 .crdtxt {
@@ -198,21 +216,6 @@ table {
   padding-bottom: none;
 }
 
-.skillcards {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.skillsset {
-  display: flex;
-  flex-direction: column;
-  background-color: navy;
-  align-items: center;
-  padding: 10px;
-  justify-content: center;
-}
-
 .crd6 {
   display: flex;
   margin-top: none;
@@ -244,6 +247,27 @@ table {
 .crdtxt7 {
   padding: none;
   align-self: start;
+}
+
+.skillcards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1000px) {
+  .skillcards {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.skillsset {
+  display: flex;
+  flex-direction: column;
+  background-color: navy;
+  align-items: center;
+  padding: 10px;
+  justify-content: center;
 }
 
 .footerdev {
@@ -464,12 +488,36 @@ input[type=checkbox] {
   font-style: normal;
 }
 .alertbanner {
-  background-color: lavenderblush;
+  background-color: rgb(255, 108, 157);
   display: block;
-  display: block;
+  position: fixed;
   padding: 10px;
   width: 100%; /* Change this value to adjust the width of the centered element */
   text-align: center;
+  color: aliceblue;
+}
+
+.palette {
+  display: block;
+  height: 30px;
+  width: 30px;
+  padding: 20px;
+  margin: 15px;
+}
+.palette.mainblue {
+  background-color: #104E85;
+}
+.palette.smokyblue {
+  background-color: #2A6C94;
+}
+.palette.mainpink {
+  background-color: #EF7E7F;
+}
+.palette.samon {
+  background-color: #DF4456;
+}
+.palette.accent {
+  background-color: #8F1926;
 }
 
 .containerwrapper {

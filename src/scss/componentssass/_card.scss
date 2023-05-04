@@ -43,6 +43,12 @@ $background-color_2: rgb(6, 134, 213);
 	margin-top: none;
 	border-radius: 8px;
 	width: 240px;
+	@media (max-width:1000px) {
+		margin-left: none;
+		width: 80%;
+		height: 230px;
+
+	}
 }
 
 .crd2 {
@@ -51,6 +57,14 @@ $background-color_2: rgb(6, 134, 213);
 	// margin: 40px;
 	background-color: rgb(239, 247, 255);
 	color: navy;
+	@media (max-width:1000px) {
+		width: fit-content;
+		height: 200px;
+		margin: 40px;
+		padding-bottom: 30px;
+		display: flex;
+
+	}
 	
 
 }
@@ -86,10 +100,11 @@ $background-color_2: rgb(6, 134, 213);
 }
 
 .crdimg4 {
-	height: 60%;
-	width: auto;
+	height: 100%;
+	width: 100%;
 	border-radius: 8px;
 	overflow: hidden;
+	margin-bottom: none;
 }
 
 .crd4 {
@@ -97,6 +112,7 @@ $background-color_2: rgb(6, 134, 213);
 	height: 250px;
 	display: flex;
 	flex-direction: row;
+	margin-bottom: none;
 }
 
 .crdtxt {
@@ -168,23 +184,6 @@ $background-color_2: rgb(6, 134, 213);
 	padding-bottom: none;
 }
 
-.skillcards {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-
-}
-
-.skillsset {
-	display: flex;
-	flex-direction: column;
-	background-color: navy;
-	align-items: center;
-	padding: 10px;
-	justify-content: center;
-}
-
 .crd6 {
 	display: flex;
 	margin-top: none;
@@ -217,4 +216,25 @@ $background-color_2: rgb(6, 134, 213);
 .crdtxt7 {
 	padding: none;
 	align-self: start;
+}
+// --skillcards--
+.skillcards {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	@media (max-width: 1000px) {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+}
+
+.skillsset {
+	display: flex;
+	flex-direction: column;
+	background-color: navy;
+	align-items: center;
+	padding: 10px;
+	justify-content: center;
 }
