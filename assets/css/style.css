@@ -81,7 +81,6 @@ table {
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
 }
 .crd .crdimg {
-  background-color: #104E85;
   overflow: hidden;
 }
 
@@ -123,7 +122,7 @@ table {
 .crd2 {
   height: 400px;
   width: fit-content;
-  background-color: rgb(239, 247, 255);
+  background-color: white;
   color: navy;
 }
 @media (max-width: 1000px) {
@@ -140,7 +139,7 @@ table {
   width: 200px;
   height: fit-content;
   margin: 40px;
-  background-color: #104E85;
+  background-color: white;
 }
 @media (max-width: 1000px) {
   .crd3 {
@@ -287,7 +286,7 @@ table {
 .skillsset {
   display: flex;
   flex-direction: column;
-  background-color: navy;
+  background-color: #104E85;
   align-items: center;
   padding: 10px;
   justify-content: center;
