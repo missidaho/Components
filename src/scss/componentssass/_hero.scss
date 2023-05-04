@@ -18,7 +18,8 @@
     font-size: larger;
     padding: 5px;
     background-color: rgba(246, 249, 249, 0.5);
-    &.test {
-        
-    }
+    display: block;
+   @media (max-width: 425px){
+      display: none; 
+   }
 }
