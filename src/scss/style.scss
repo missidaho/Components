@@ -7,13 +7,14 @@
 @import "./componentssass/button";
 @import "./componentssass/_type";
 @import "./componentssass/Alerts";
-@import "./componentssass/color";
+// @import "./componentssass/color";
 @import "./componentssass/container";
 @import "./componentssass/Gallery";
 @import "./componentssass/icons";
 @import "./componentssass/images";
 @import "./componentssass/blockquote.scss";
 @import "../S4PAGES/homepage";
+@import "./../scss/componentssass/variables";
 
 
 $background-color1: #104E85;
