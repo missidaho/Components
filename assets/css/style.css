@@ -292,8 +292,31 @@ table {
   justify-content: center;
 }
 
+.palette {
+  display: block;
+  height: 30px;
+  width: 30px;
+  padding: 20px;
+  margin: 15px;
+}
+.palette.mainblue {
+  background-color: #104E85;
+}
+.palette.smokyblue {
+  background-color: #2A6C94;
+}
+.palette.mainpink {
+  background-color: #EF7E7F;
+}
+.palette.samon {
+  background-color: #DF4456;
+}
+.palette.accent {
+  background-color: #8F1926;
+}
+
 .footerdev {
-  background-color: rgb(200, 234, 234);
+  background-color: #104E85;
   display: block;
   width: 100%;
   height: 200px;
