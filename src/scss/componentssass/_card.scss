@@ -1,16 +1,3 @@
-
-// $background-color_1: #104E85;
-// $background-color2: #2A6C94;
-// $background-color3: #EF7E7F;
-// $background-color4: #DF4456;
-// $background-color5: #8F1926;
-// $background-color6: white;
-// $color1:  #104E85;
-// $color2:  #2A6C94;
-// $color3:  #EF7E7F;
-// $color4:  #DF4456;
-// $color:5 #8F1926;
-// $color6: white;
 @import "./variables";
 .crd {
 	.crdimg {
@@ -244,7 +231,7 @@
 .skillsset {
 	display: flex;
 	flex-direction: column;
-	background-color: $background-color_1;
+	background-color: $background-color_2;
 	align-items: center;
 	padding: 10px;
 	justify-content: center;
