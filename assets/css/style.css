@@ -354,6 +354,7 @@ table {
   padding-bottom: none;
   overflow: hidden;
   height: 600px;
+  margin: 0;
 }
 
 .hero-text {
@@ -372,6 +373,12 @@ table {
   .hero-text {
     display: none;
   }
+}
+
+.hero {
+  margin: 0;
+  padding-bottom: none;
+  height: 600px;
 }
 
 .palette {
@@ -560,12 +567,22 @@ input[type=checkbox] {
   color: rgb(97, 93, 93);
 }
 
-@font-face {
-  font-family: "Custom Font";
-  src: url(""), url("path/to/custom-font.woff") format("woff");
-  font-weight: normal;
-  font-style: normal;
+h2 {
+  font-family: "Petit Formal Script", cursive;
+  font-size: 40px;
+  padding: 10px;
 }
+
+h3 {
+  font-family: "Petit Formal Script", cursive;
+  font-size: 30px;
+  padding: 5px;
+}
+
+p {
+  font-size: medium;
+}
+
 .alertbanner {
   background-color: rgb(255, 108, 157);
   display: block;
@@ -577,9 +594,22 @@ input[type=checkbox] {
 }
 
 .containerwrapper {
-  padding: 20px;
   display: flex;
   flex-direction: column;
+  margin: 0 auto;
+  padding-top: none;
+}
+.containerwrapper.wrapperrow {
+  flex-direction: row;
+  padding: none;
+}
+.containerwrapper.wrappertxt {
+  padding: 20px;
+  margin: 5px;
+}
+
+.wrapper2 {
+  display: flex;
 }
 
 .gallery {

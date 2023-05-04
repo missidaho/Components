@@ -1,6 +1,20 @@
 .containerwrapper {
-    padding: 20px;
+    // padding: 30px;
     display: flex;
     flex-direction: column;
+    margin: 0 auto;
+    padding-top: none;
+    &.wrapperrow {
+        flex-direction: row;
+        padding: none;
+    }
+    &.wrappertxt {
+        padding: 20px;
+        margin: 5px;
+    }
+
+}
+.wrapper2 {
+    display: flex;
 
 }

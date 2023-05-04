@@ -1,7 +1,13 @@
-@font-face {
-    font-family: 'Custom Font';
-    src: url(''),
-         url('path/to/custom-font.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-  }
+h2 {
+     font-family:'Petit Formal Script', cursive;
+     font-size: 40px;
+     padding: 10px;
+ }
+ h3 {
+     font-family:'Petit Formal Script', cursive;
+     font-size: 30px;  
+     padding: 5px;
+ }
+p {
+     font-size: medium;
+}
