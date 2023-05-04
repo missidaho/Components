@@ -51,7 +51,7 @@ $background-color_2: rgb(6, 134, 213);
 	// margin: 40px;
 	background-color: rgb(239, 247, 255);
 	color: navy;
-
+	
 
 }
 
@@ -60,6 +60,14 @@ $background-color_2: rgb(6, 134, 213);
 	height: fit-content;
 	margin: 40px;
 	background-color: $background-color_1;
+	@media (max-width:1000px) {
+		width: fit-content;
+		height: 200px;
+		margin: 40px;
+		padding-bottom: 30px;
+		display: flex;
+
+	}
 
 }
 
@@ -69,6 +77,12 @@ $background-color_2: rgb(6, 134, 213);
 	border-radius: 8px;
 	overflow: hidden;
 	border-radius: 8px;
+	@media (max-width:1000px) {
+		margin-left: none;
+		width: 80%;
+		height: 230px;
+
+	}
 }
 
 .crdimg4 {

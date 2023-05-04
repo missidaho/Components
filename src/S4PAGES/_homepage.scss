@@ -1,0 +1,12 @@
+.skillcards {
+    @media (max-width: 1000px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+.skillset {
+    @media (max-width: 1000px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
