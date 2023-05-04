@@ -334,7 +334,7 @@ table {
   align-items: center;
   justify-content: space-between;
   padding: 5px;
-  background-color: rgba(250, 250, 252, 0.6);
+  background-color: rgba(255, 255, 255, 0.6);
   /* color: rgb(28, 99, 157); */
   /* position: absolute; */
   z-index: 1;
@@ -343,7 +343,7 @@ table {
 }
 
 .nav-links a {
-  color: rgb(37, 32, 77);
+  color: color1;
   text-decoration: none;
 }
 
